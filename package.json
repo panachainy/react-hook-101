@@ -2,6 +2,10 @@
   "name": "react-hook-101",
   "version": "0.1.0",
   "private": true,
+  "packageManager": "yarn@3.2.1",
+  "engines": {
+    "node": ">=14.x"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
