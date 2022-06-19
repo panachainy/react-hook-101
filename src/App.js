@@ -1,14 +1,13 @@
-import logo from "./logo.svg";
 import "./App.css";
-import Playground from "./components/Playground";
+import Playground, { Paint } from "./components/Playground";
+import Name from "./components/Name";
 
 function App() {
   return (
     <div className="App">
-      <body>
-        <h1>This is example how to use hook</h1>
-        <Playground />
-      </body>
+      <h1>This is example how to use hook</h1>
+      <Playground />
+      <Name />
     </div>
   );
 }
